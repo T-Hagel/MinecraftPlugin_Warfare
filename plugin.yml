@@ -1,0 +1,8 @@
+name: Warfare
+version: 0.1
+main: me.lightfall.warfare.Main
+author: Lightfallx
+description: Warfare
+commands:
+    Warfare:
+    Leave:

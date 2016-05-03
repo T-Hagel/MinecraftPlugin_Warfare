@@ -1,0 +1,120 @@
+##########################################
+#                                        #
+#     WARFARE: WEAPONS CONFIGURATION     #
+#                                        #
+##########################################
+# Universal weapon parameters:           #
+# ------------------                     #
+#                                        #
+#  - damage                              #
+#      - <integer>                       #
+#      - the damage done by each bullet  #
+#                                        #
+#  - level                               #
+#      - <integer>                       #
+#      - the level required to purchase  #
+#        the weapon                      #
+#                                        #
+#  - lore                                #
+#      - <string list>                   #
+#      - the lore for the weapon         #
+#                                        #
+#  - magSize                             #
+#      - <integer>                       #
+#      - the size of the magazine        #
+#                                        #
+#  - material                            #
+#      - <string>                        #
+#      - the material type of the weapon #
+#                                        #
+#  - name                                #
+#      - <string>                        #
+#      - the name of the weapon          #
+#                                        #
+#  - reloadTime                          #
+#      - <integer> In ticks              #
+#      - the time to reload              #
+#                                        #
+#  - shiftSpread                         #
+#      - <double>                        #
+#      - the spread of the bullets       #
+#         while firing while aim-        #
+#         down-sight                     #
+#                                        #
+#  - shotDelay                           #
+#      - <integer> In ticks              #
+#      - the minimum time between shots  #
+#                                        #
+#  - spread                              #
+#      - <double>                        #
+#      - the spread of the bullets       #
+#         while firing from the hip.     #
+#                                        #
+#  - startingAmmo                        #
+#      - <integer>                       #
+#      - the total starting              #
+#         ammo of the weapon.            #
+#                                        #
+#  - type                                #
+#      - <Weapon Type>                   #
+#      - the type of the weapon          #
+#         - bulletgun                    #
+#         - burstgun                     #
+#         - rocketgun                    #
+#                                        #
+#  - typeName                            #
+#      - <string>                        #
+#      - the name to be displayed as     #
+#         the type of weapon.            #
+#         e.g. Pistol, Assault Rifle,    #
+#         Sniper Rifle, etc.             #
+#                                        #
+# Specific weapon parameters:            #
+# ------------------                     #
+#  - bullet gun                          #
+#    - shotsFired                        #
+#      - the number of shots to be       #
+#        fired.                          #
+#                                        #
+#  - burst gun                           #
+#    - shotsFired                        #
+#      - the number of shots to be       #
+#        fired.                          #
+#    - burstDelay                        #
+#      - the delay between the bullets   #
+#         shot in burst.                 #
+#                                        #
+#  - rocket gun                          #
+#                                        #
+#                                        #
+#                                        #
+#                                        #
+#                                        #
+##########################################
+#                                        #
+#      Example Weapon Configuration      #
+#                                        #
+##########################################
+#                                        #
+# weapons:                               #
+#   alpha:                               #
+#     damage: 1                          #
+#     level: 1                           #
+#     lore:                              #
+#     - '&3Hello, world!'                #
+#     - '&4This is line two!'            #
+#     magSize: 32                        #
+#     material: 'WOOD_AXE'               #
+#     name: '&4Alpha'                    #
+#     reloadTime: 50                     #
+#     shiftSpread: 0.05                  #
+#     shotDelay: 5                       #
+#     spread: 0.1                        #
+#     totalAmmo: 160                     #
+#     type: 'bulletgun'                  #
+#     typeName: 'Assault Rifle'          #
+#                                        #
+##########################################
+
+
+
